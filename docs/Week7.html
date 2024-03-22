@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Blog Yeray da Silva</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">My Work Blog</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Task Progress</p>
+            <h6 class="section-title mb-6">Blog</h6>
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Week 7 (March 18th - March 22th)</h6>
+                        <p>                                                                       
+                            In this seventh week, I began by attempting to separate the types of questions from the .json files, dividing them into general programming questions,
+                            general Unibotics questions, and exercise-specific questions, so that general questions can be common to all exercises, without the need to copy
+                            those questions repeatedly in all exercises on the platform. Although at first, I found it difficult and couldn't achieve it, in the end,
+                            by dedicating time, I was able to fix it and make everything work perfectly.
+                            <br><br>
+                            Additionally, I created two question banks for two new exercises, obstacle_avoidance and global_navigation,
+                            each with 30 exercise-specific questions, totaling 800 lines of code each .json file.
+                            <br>
+                            <div style="text-align: center;">
+                                <img src="assets/imgs/preguntas.png" alt="" width="1000">
+                            </div>
+                            <br>
+                            Furthermore, halfway through the week, I created a REACT page to execute these exercises, so that this page contains a space for the client to write their question.
+                            As part of the backend, I created an express server to connect what the client asks with the response that needs to be returned. 
+                            However, since Unibotics works with Django servers, by the end of the week I had to change the page to work with the correct server, in this case, Django.
+                            <br>
+                            <div style="text-align: center;">
+                                <img src="assets/imgs/servidor.png" alt="" width="450">
+                            </div>
+                            <br>
+                            Unfortunately, for this week, I was not able to connect the questions and answers from the trained model with the server and client of the page.
+                            <br><br>
+                            Finally, as every week, I updated the blog adding this new section.   
+                        </p>
+                            
+                </div>
+               
+            </div><!-- end of blog wrapper -->
+            <a href="index.html#blog" class="btn btn-primary">Return</a>
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; 
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/YerayDS" class="link"><i class="ti-github"></i></a>
+                <a href="https://www.linkedin.com/in/yeray-da-silva-3076a81b2/" class="link"><i class="ti-linkedin"></i></a>
+            </div>
+            <a href="https://jderobot.github.io/">
+                <img src="logo.png" class="about-img" width="75">
+            </a>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
