@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Blog Yeray da Silva</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">My Work Blog</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Task Progress</p>
+            <h6 class="section-title mb-6">Blog</h6>
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Week 11 (April 15th - April 19th)</h6>
+                        <p>                                                                       
+                            In this eleventh update, I began by modifying the visual aspect of the intelligent tutor within the exercise page. 
+                            Previously, a window would appear that blocked you from using the page, allowing you only to type a question or close that window. 
+                            Now, this window does not block anything, so the user can write code while, for example, viewing the answer to a question they asked.
+                            <br>
+                            <div style="text-align: center;">
+                                <img src="assets/imgs/tutorParalelo.png" alt="" width="600">
+                            </div>
+                            <br>
+                            Additionally, I modified the way of communication between the web browser and the intelligent tutor, as before they did not use the Django server. 
+                            Now, for the web browser to communicate with the tutor, it is necessary to pass information through the server and vice versa.
+                            <br><br>
+                            Another advancement I made this week was the ability to load a specific model depending on the exercise the client is in. 
+                            That is, for example, if the user is in the follow line exercise, the corresponding model will be loaded. 
+                            This has been made possible by using the URL; if the link the user is on contains the name "follow line," their question and answer bank will be loaded.
+                            <br><br>
+                            Furthermore, throughout the week's progress, I created JSON files for four more exercises, specifically for the exercises "Labyrinth Escape," 
+                            "Rescue People," "Power Tower Inspection," and "3D Reconstruction," so that this tutor is adapted to more and more exercises.
+                            <br><br>
+                            Lastly, I finished by modifying again the visual aspect of the tutor, specifically the appearance of the window that appears, 
+                            so that it can now be dragged with the mouse and placed in the most comfortable position. And, as in every week, I finished by updating the blog with one more week.
+                            <br>
+                            <div style="text-align: center;">
+                                <img src="assets/imgs/tutorMovido.png" alt="" width="600">
+                            </div>
+                            <br>
+                        </p>
+                            
+                </div>
+               
+            </div><!-- end of blog wrapper -->
+            <a href="index.html#blog" class="btn btn-primary">Return</a>
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; 
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/YerayDS" class="link"><i class="ti-github"></i></a>
+                <a href="https://www.linkedin.com/in/yeray-da-silva-3076a81b2/" class="link"><i class="ti-linkedin"></i></a>
+            </div>
+            <a href="https://jderobot.github.io/">
+                <img src="logo.png" class="about-img" width="75">
+            </a>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
