@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Blog Yeray da Silva</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">My Work Blog</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Task Progress</p>
+            <h6 class="section-title mb-6">Blog</h6>
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Week 15 (May 13th - May 17th)</h6>
+                        <p>                                                                                              
+                            In this fifteenth week, I began by submitting a Pull Request for the information I had added to the deployment D1 readme, explaining how to launch the smart tutor container.
+                            <br><br>
+                            Additionally, I attempted to launch the RADI container on the Ubuntu virtual machine, but encountered numerous issues. 
+                            Therefore, instead of testing it on the virtual machine, I launched the RADI from the terminal of my Mac, which worked smoothly.
+                            <br><br>
+                            Regarding the exercises, I reported as issues that the image for the Rescue People exercise wasn't loading and that the Autoparking exercise wasn't functioning.
+                            <br><br>
+                            Throughout the week, I researched how to measure the CPU and GPU values when launching the RADI, discovering a Mac tool called Activity Monitor, 
+                            from which I could generate different graphs and view the CPU and GPU values. In the end, I concluded that the RADI was launched without graphics acceleration because the GPU was not being utilized.
+                            <br><br>
+                            By the end of the week, I created models for all the exercises in Unibotics, as until now, only the Follow Line exercise had a model. 
+                            Once all the models were created, I added all the URLs so that depending on the client's location, a different model would be loaded. 
+                            However, it started to encounter numerous problems when loading the URL from the container. 
+                            That is, if I launch the tutor locally, there are no issues; everything works as it should. But if I launch the tutor as a container, the models don't load and it responds incorrectly. 
+                            Unfortunately, I couldn't fix this error this week.
+                            <br><br>
+                            Finally, as usual, I finished the week by updating the blog with another week's worth of content.
+                        </p>
+                            
+                </div>
+               
+            </div><!-- end of blog wrapper -->
+            <a href="index.html#blog" class="btn btn-primary">Return</a>
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; 
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/YerayDS" class="link"><i class="ti-github"></i></a>
+                <a href="https://www.linkedin.com/in/yeray-da-silva-3076a81b2/" class="link"><i class="ti-linkedin"></i></a>
+            </div>
+            <a href="https://jderobot.github.io/">
+                <img src="logo.png" class="about-img" width="75">
+            </a>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
